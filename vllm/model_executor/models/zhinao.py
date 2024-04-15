@@ -403,8 +403,8 @@ class ZhinaoForCausalLM(nn.Module):
                     if output_dim is not None:
                         loaded_weight = loaded_weight.view(
                             loaded_weight_shape[:output_dim] +
-                            (total_num_kv_heads, num_query_heads_per_kv_head + 2,
-                             -1) + loaded_weight_shape[output_dim + 1:])
+                            (total_num_kv_heads, num_query_heads_per_kv_head +
+                             2, -1) + loaded_weight_shape[output_dim + 1:])
                         wq = loaded_weight.narrow(
                             output_dim + 1, 0,
                             num_query_heads_per_kv_head).reshape(
