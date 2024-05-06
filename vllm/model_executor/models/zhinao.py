@@ -327,7 +327,9 @@ class ZhinaoForCausalLM(nn.Module):
         super().__init__()
         self.config = config
         self.linear_method = linear_method
-        self.model = ZhinaoModel(config, linear_method, lora_config=lora_config)
+        self.model = ZhinaoModel(config,
+                                 linear_method,
+                                 lora_config=lora_config)
         self.unpadded_vocab_size = config.vocab_size
         if lora_config:
             self.unpadded_vocab_size += lora_config.lora_extra_vocab_size
