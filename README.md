@@ -85,6 +85,7 @@ vLLM seamlessly supports many Hugging Face models, including the following archi
 - Starcoder2(`bigcode/starcoder2-3b`, `bigcode/starcoder2-7b`, `bigcode/starcoder2-15b`, etc.)
 - Xverse (`xverse/XVERSE-7B-Chat`, `xverse/XVERSE-13B-Chat`, `xverse/XVERSE-65B-Chat`, etc.)
 - Yi (`01-ai/Yi-6B`, `01-ai/Yi-34B`, etc.)
+- 360Zhinao (`qihoo360/360Zhinao-7B-Chat-4K`, `qihoo360/360Zhinao-7B-Chat-360K`, etc.)
 
 Install vLLM with pip or [from source](https://vllm.readthedocs.io/en/latest/getting_started/installation.html#build-from-source):
 
