@@ -14,6 +14,24 @@ Easy, fast, and cheap LLM serving for everyone
 
 </p>
 
+---
+
+**Ray Summit CPF is Open (June 4th to June 20th)!**
+
+There will be a track for vLLM at the Ray Summit (09/30-10/02, SF) this year!
+If you have cool projects related to vLLM or LLM inference, we would love to see your proposals.
+This will be a great chance for everyone in the community to get together and learn.
+Please submit your proposal [here](https://raysummit.anyscale.com/flow/anyscale/raysummit2024/landing/page/eventsite)
+
+**The Fourth vLLM Bay Area Meetup (June 11th 5:30pm-8pm PT)**
+
+We are thrilled to announce our fourth vLLM Meetup!
+The vLLM team will share recent updates and roadmap.
+We will also have vLLM collaborators from BentoML and Cloudflare coming up to the stage to discuss their experience in deploying LLMs with vLLM.
+Please register [here](https://lu.ma/agivllm) and join us!
+
+---
+
 *Latest News* 🔥
 - [2024/04] We hosted [the third vLLM meetup](https://robloxandvllmmeetup2024.splashthat.com/) with Roblox! Please find the meetup slides [here](https://docs.google.com/presentation/d/1A--47JAK4BJ39t954HyTkvtfwn0fkqtsL8NGFuslReM/edit?usp=sharing).
 - [2024/01] We hosted [the second vLLM meetup](https://lu.ma/ygxbpzhl) in SF! Please find the meetup slides [here](https://docs.google.com/presentation/d/12mI2sKABnUw5RBWXDYY-HtHth4iMSNcEoQ10jDQbxgA/edit?usp=sharing).
@@ -87,6 +105,14 @@ vLLM seamlessly supports many Hugging Face models, including the following archi
 - Xverse (`xverse/XVERSE-7B-Chat`, `xverse/XVERSE-13B-Chat`, `xverse/XVERSE-65B-Chat`, etc.)
 - Yi (`01-ai/Yi-6B`, `01-ai/Yi-34B`, etc.)
 - 360Zhinao (`qihoo360/360Zhinao-7B-Chat-4K`, `qihoo360/360Zhinao-7B-Chat-360K`, etc.)
+vLLM seamlessly supports most popular open-source models on HuggingFace, including:
+- Transformer-like LLMs (e.g., Llama)
+- Mixture-of-Expert LLMs (e.g., Mixtral)
+- Multi-modal LLMs (e.g., LLaVA)
+
+Find the full list of supported models [here](https://docs.vllm.ai/en/latest/models/supported_models.html).
+
+## Getting Started
 
 Install vLLM with pip or [from source](https://vllm.readthedocs.io/en/latest/getting_started/installation.html#build-from-source):
 
@@ -94,9 +120,7 @@ Install vLLM with pip or [from source](https://vllm.readthedocs.io/en/latest/get
 pip install vllm
 ```
 
-## Getting Started
-
-Visit our [documentation](https://vllm.readthedocs.io/en/latest/) to get started.
+Visit our [documentation](https://vllm.readthedocs.io/en/latest/) to learn more.
 - [Installation](https://vllm.readthedocs.io/en/latest/getting_started/installation.html)
 - [Quickstart](https://vllm.readthedocs.io/en/latest/getting_started/quickstart.html)
 - [Supported Models](https://vllm.readthedocs.io/en/latest/models/supported_models.html)
@@ -105,6 +129,33 @@ Visit our [documentation](https://vllm.readthedocs.io/en/latest/) to get started
 
 We welcome and value any contributions and collaborations.
 Please check out [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get involved.
+
+## Sponsors
+
+vLLM is a community project. Our compute resources for development and testing are supported by the following organizations. Thank you for your support!
+
+<!-- Note: Please sort them in alphabetical order. -->
+<!-- Note: Please keep these consistent with docs/source/community/sponsors.md -->
+
+- a16z
+- AMD
+- Anyscale
+- AWS
+- Crusoe Cloud
+- Databricks
+- DeepInfra
+- Dropbox
+- Lambda Lab
+- NVIDIA
+- Replicate
+- Roblox
+- RunPod
+- Sequoia Capital
+- Trainy
+- UC Berkeley
+- UC San Diego
+
+We also have an official fundraising venue through [OpenCollective](https://opencollective.com/vllm). We plan to use the fund to support the development, maintenance, and adoption of vLLM.
 
 ## Citation
 
